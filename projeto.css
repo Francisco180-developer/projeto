@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Font-android';
+    src: url(fonte/idroid.otf) format('truetype');
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(to bottom, #37A556, #3D7A4F, #35503D);
+    padding-top: 1px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#cdt {
+    text-align: center;
+}
+
+#tc {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header > nav {
+    padding: 10px 20px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: #cbff9d77;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header > nav > a:hover {
+    background-color: #cbff9d77;
+    color: #35503D;
+    width: auto;
+    transition-duration: 0.5s;
+}
+
+strong {
+    color: green;
+}
+
+main {
+    background-color: #fff;
+    margin: auto;
+    width: 1600px;
+    padding-top: 1px;
+    padding: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.tittle {
+    font-family: 'Font-android', sans-serif;
+    color: #35503D;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.parágrafo {
+    font-size: 20px;
+    text-indent: 2em;
+    text-align: justify; 
+    line-height: 1.5em;  
+}
+
+.subtittle {
+    font-family: 'Font-android', sans-serif;
+    color: #037726;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #0ac24179, #fff);
+}
+
+.repertório {
+    text-decoration: none;
+    color: #35503D;
+    font-weight: bold;
+    background-color: rgba(0, 192, 0, 0.479);
+    padding: 3px;
+}
+
+.repertório:hover{
+    text-decoration: underline;
+}
+
+#droids {
+    width: 1500px;
+}
+
+#irina{
+    height: 500px;
+    width: 100%;
+}
+
+
+
+#bugdroid{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    width: 100%;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+#qam{
+    background-color: rgba(0, 192, 0, 0.479);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#qam-tittle{
+    background-color: #35503D;
+    color: #fff;
+    padding: 10px;
+    margin: -5px;
+    font-size: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#lista-1{
+    display: inline-block;
+    padding-right: 50px;    
+}
+
+#lista-2{
+    display: inline-block;
+}
+
+footer{
+    background-color: #004916;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.créditos{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.créditos:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
